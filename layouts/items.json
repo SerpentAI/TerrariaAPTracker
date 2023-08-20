@@ -1,0 +1,46 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "post_eye_of_cthulhu",
+                                "post_evil_boss",
+                                "post_goblin_army",
+                                "post_queen_bee",
+                                "post_skeletron",
+                                "hardmode"
+                            ],
+                            [
+                                "post_the_twins",
+                                "post_the_destroyer",
+                                "post_skeletron_prime",
+                                "post_pirate_invasion",
+                                "post_plantera",
+                                "post_golem"
+                            ],
+                            [
+                                "post_empress_of_light",
+                                "post_lunatic_cultist",
+                                "post_moon_lord"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

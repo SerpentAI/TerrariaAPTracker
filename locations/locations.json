@@ -1,0 +1,2208 @@
+[
+    {
+        "name": "Terraria",
+        "chest_unopened_img": "/images/ui/chest.png",
+        "chest_opened_img": "/images/ui/chest_checked.png",
+        "children": [
+            {
+                "name": "Torch God",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 1140,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Torch God",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "King Slime",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 350,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "King Slime",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Eye of Cthulhu",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 350,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eye of Cthulhu",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Evil Boss",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 350,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Evil Boss",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Old One's Army (Tier 1)",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 1140,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old One's Army (Tier 1)",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["post_evil_boss"]
+                    }
+                ]
+            },
+            {
+                "name": "Goblin Army",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 1140,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Goblin Army",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Queen Bee",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 350,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Queen Bee",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Skeletron",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 350,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Skeletron",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Deerclops",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 511,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Deerclops",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Wall of Flesh",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 511,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wall of Flesh",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Pirate Invasion",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 1140,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pirate Invasion",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Queen Slime",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 511,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Queen Slime",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "The Twins",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 511,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Twins",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "The Destroyer",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 511,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Destroyer",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Skeletron Prime",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 672,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Skeletron Prime",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
+                        "access_rules": ["hardmode,post_skeletron"]
+                    }
+                ]
+            },
+            {
+                "name": "Old One's Army (Tier 2)",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 1140,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old One's Army (Tier 2)",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera"],
+                        "access_rules": [
+                            "post_evil_boss,post_the_twins",
+                            "post_evil_boss,post_the_destroyer",
+                            "post_evil_boss,post_skeletron_prime",
+                            "post_evil_boss,post_golem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Plantera",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 672,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Plantera",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera"],
+                        "access_rules": ["hardmode,post_the_twins,post_the_destroyer,post_skeletron_prime"]
+                    }
+                ]
+            },
+            {
+                "name": "Golem",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 672,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Golem",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem"],
+                        "access_rules": [
+                            "hardmode,post_plantera,post_the_twins,post_the_destroyer,post_skeletron_prime",
+                            "hardmode,post_plantera,post_skeletron",
+                            "hardmode,post_plantera,post_golem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Old One's Army (Tier 3)",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 1301,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old One's Army (Tier 3)",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["post_evil_boss,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Martian Madness",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 1301,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Martian Madness",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Duke Fishron",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 672,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Duke Fishron",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Mourning Wood",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 1301,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mourning Wood",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Pumpking",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 1301,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Pumpking",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Everscream",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 1301,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Everscream",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Santa-NK1",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 1462,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Santa-NK1",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Ice Queen",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 1462,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Ice Queen",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Frost Legion",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 541,
+                        "y": 1462,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Frost Legion",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Empress of Light",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 672,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Empress of Light",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
+                        "access_rules": ["hardmode,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Lunatic Cultist",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 179,
+                        "y": 833,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lunatic Cultist",
+                        "visibility_rules": ["$hasGoalOfAtLeastLunaticCultist"],
+                        "access_rules": ["hardmode,post_skeletron,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Lunar Events",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 722,
+                        "y": 1462,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lunar Events",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord"],
+                        "access_rules": ["hardmode,post_skeletron,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Moon Lord",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 360,
+                        "y": 833,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Moon Lord",
+                        "visibility_rules": ["$hasGoalOfAtLeastMoonLord"],
+                        "access_rules": ["hardmode,post_skeletron,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Zenith",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 903,
+                        "y": 1462,
+                        "size": 48,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Zenith",
+                        "visibility_rules": ["$hasGoalOfAtLeastZenith"],
+                        "access_rules": ["hardmode,post_the_twins,post_the_destroyer,post_skeletron_prime,post_skeletron,post_plantera,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Timber!!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chop down your first tree.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Benched",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Craft your first work bench.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Stop! Hammer Time!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain your first hammer via crafting or otherwise.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Matching Attire",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip armor in all three armor slots: head, chest, and feet.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Fashion Statement",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip armor or vanity clothing in all three social slots.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Ooo! Shiny!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mine your first nugget of ore with a pickaxe.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "No Hobo",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 321,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Build a house suitable enough for your first town NPC, such as the guide, to move into.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Heavy Metal",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain an anvil made from iron or lead.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "The Frequent Flyer",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Spend over 1 gold being treated by the nurse.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Dye Hard",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip a dye in every possible dye slot.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Lucky Break",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Survive a long fall with just a sliver of health remaining.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Star Power",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Craft a mana crystal out of fallen stars, and consume it.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "You Can Do It!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Survive your character's first full night.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Heliophobia",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 451,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Trick a gnome into turning into stone!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Archaeologist",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Doctor Bones.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Feeling Petty",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Deliver headpats to the town pet.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "A Rather Blustery Day",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fly a kite on a windy day.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Pretty in Pink",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill pinky.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Marathon Medalist",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Travel a total of 26.2 miles on foot.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Servant-in-Training",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Complete your 1st quest for the angler.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "10 Fishing Quests",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 581,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Complete your 10th quest for the angler.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Trout Monkey",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Complete your 25th quest for the angler.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Glorious Golden Pole",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a golden fishing rod.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Fast and Fishious",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Complete your 50th quest for the angler.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Supreme Helper Minion!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Complete a grand total of 200 quests for the angler.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsFishing"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Into Orbit",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "You can only go down from here!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Watch Your Step!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Become a victim to a nasty underground trap.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Throwing Lines",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 712,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Throw a yoyo.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Vehicular Manslaughter",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat an enemy by running it over with a minecart.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Hey! Listen!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Encounter a fairy.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "I Am Loot!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Discover a golden chest underground and take a peek at its contents.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Heart Breaker",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Discover and smash your first heart crystal underground.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Hold on Tight!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip your first grappling hook.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Like a Boss",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a boss-summoning item.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Jeepers Creepers",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 842,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Stumble into a spider cavern in the underground.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Funkytown",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Build or encounter a glowing mushroom field above the surface.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Deceiver of Fools",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill a nymph.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Dead Men Tell No Tales",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Bulldozer",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Destroy a total of 10,000 tiles.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "There are Some Who Call Him...",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill Tim.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "It's Getting Hot in Here",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Spelunk deep enough to reach the molten underworld.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Rock Bottom",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 972,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The only way is up!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Smashing, Poppet!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Leading Landlord",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Meet with a tenant who's as happy as they possibly can be!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Completely Awesome",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a minishark.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Sticky Situation",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Survive the slime rain, where gelatinous organisms fall from the sky in droves.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "The Cavalry",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip a mount.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Bloodbath",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Til Death...",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 1102,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Kill the groom.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Quiet Neighborhood",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter a misty graveyard filled with the surly dead.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Jolly Jamboree",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "What you're celebrating doesn't matter, just throw a party already!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Miner for Fire",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Craft a molten pickaxe using the hottest of materials.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Hot Reels!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Drop a lure in a pool of lava for a pre-fried haul!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Boots of the Hero",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain the Terraspark Boots, forged from the finest boots of fire and ice.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": ["post_goblin_army"]
+                    }
+                ]
+            },
+            {
+                "name": "Where's My Honey?",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Discover a large bee's hive deep in the jungle.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Not the Bees!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 1232,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fire a Bee Gun while wearing a full set of Bee Armor.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Dungeon Heist",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["post_skeletron"]
+                    }
+                ]
+            },
+            {
+                "name": "Begone, Evil!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Smash a demon or crimson altar with a powerful, holy hammer.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Extra Shiny!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mine a powerful ore that has been newly blessed upon your world.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Gelatin World Tour",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat every type of slime there is!",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievementsGrindy"],
+                        "access_rules": ["post_skeletron,hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Head in the Clouds",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Equip a pair of wings.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Don't Dread on Me",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat the Dreadnautilus, murderous mollusk lurking beneath the surface of the sanguine seas.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "It Can Talk?!",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 1362,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Build a house in a mushroom biome and have the Truffle move in.",
+                        "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Prismancer",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a rainbow rod.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": ["hardmode"]
+                    }
+                ]
+            },
+            {
+                "name": "Get a Life",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_the_twins",
+                            "hardmode,post_the_destroyer",
+                            "hardmode,post_skeletron_prime"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Topped Off",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attain maximum life and mana possible without accessories or buffs.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_the_twins",
+                            "hardmode,post_the_destroyer",
+                            "hardmode,post_skeletron_prime"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Buckets of Bolts",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron"]
+                    }
+                ]
+            },
+            {
+                "name": "Mecha Mayhem",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Do battle against the Twins, the Destroyer, and Skeletron Prime simultaneously and emerge victorious.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron"]
+                    }
+                ]
+            },
+            {
+                "name": "Drax Attax",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Craft a drax or pickaxe axe using hallowed bars, and the souls of the three mechanical bosses.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron"]
+                    }
+                ]
+            },
+            {
+                "name": "Photosynthesis",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 1492,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mine chlorophyte, an organic ore found deep among the thickest of flora.",
+                        "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_skeletron",
+                            "hardmode,post_plantera,post_the_twins,post_the_destroyer,post_skeletron_prime",
+                            "hardmode,post_plantera,post_golem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "You and What Army?",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Command nine summoned minions simultaneously.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_queen_bee,post_plantera",
+                            "hardmode,post_skeletron,post_plantera",
+                            "hardmode,post_skeletron,post_golem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Real Estate Agent",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have all possible town NPCs living in your world.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_plantera,post_the_twins,post_skeletron,post_queen_bee,post_goblin_army,post_evil_boss",
+                            "hardmode,post_plantera,post_the_destroyer,post_skeletron,post_queen_bee,post_goblin_army,post_evil_boss",
+                            "hardmode,post_plantera,post_skeletron_prime,post_skeletron,post_queen_bee,post_goblin_army,post_evil_boss"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Robbing the Grave",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a rare treasure from a difficult monster in the dungeon.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": ["post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Big Booty",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Unlock one of the dungeon's large, mysterious chests with a special key.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": ["post_skeletron,hardmode,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Rainbows and Unicorns",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fire a rainbow gun while riding on a unicorn.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": ["post_skeletron,hardmode,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Temple Raider",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1762,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Breach the impenetrable walls of the jungle temple.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": ["hardmode,post_the_twins,post_the_destroyer,post_skeletron_prime"]
+                    }
+                ]
+            },
+            {
+                "name": "Sword of the Hero",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1892,
+                        "y": 1622,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain a Terra Blade, forged from the finest blades of light and darkness.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": ["hardmode,post_plantera,post_skeletron,post_the_twins,post_the_destroyer,post_skeletron_prime"]
+                    }
+                ]
+            },
+            {
+                "name": "Kill the Sun",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1112,
+                        "y": 1752,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Survive a solar eclipse, a day darker than night filled with creatures of horror.",
+                        "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
+                        "access_rules": [
+                            "hardmode,post_the_twins,post_the_destroyer,post_skeletron_prime",
+                            "hardmode,post_plantera,post_skeletron",
+                            "hardmode,post_plantera,post_golem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Baleful Harvest",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1242,
+                        "y": 1752,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Reach the 15th wave of a pumpkin moon, where evil lurks among the autumn harvest.",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Ice Scream",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1372,
+                        "y": 1752,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Reach the 15th wave of a frost moon, where the festive season quickly degrades into madness.",
+                        "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron,post_plantera"]
+                    }
+                ]
+            },
+            {
+                "name": "Slayer of Worlds",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1502,
+                        "y": 1752,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat every boss in Terraria.",
+                        "visibility_rules": ["$hasGoalOfAtLeastZenith,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron,post_the_twins,post_the_destroyer,post_skeletron_prime,post_golem"]
+                    }
+                ]
+            },
+            {
+                "name": "Sick Throw",
+                "map_locations": [
+                    {
+                        "map": "terraria",
+                        "x": 1632,
+                        "y": 1752,
+                        "size": 32,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Obtain the Terrarian.",
+                        "visibility_rules": ["$hasGoalOfAtLeastZenith,$hasAchievements"],
+                        "access_rules": ["hardmode,post_skeletron,post_golem"]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "tab_layout": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Terraria",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "terraria"
+                    ]
+                }
+            }
+        ]
+    }
+}

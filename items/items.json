@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Post-Eye of Cthulhu",
+        "type": "toggle",
+        "img": "/images/items/post_eye_of_cthulhu.png",
+        "codes": "post_eye_of_cthulhu"
+    },
+    {
+        "name": "Post-Evil Boss",
+        "type": "toggle",
+        "img": "/images/items/post_evil_boss.png",
+        "codes": "post_evil_boss"
+    },
+    {
+        "name": "Post-Goblin Army",
+        "type": "toggle",
+        "img": "/images/items/post_goblin_army.png",
+        "codes": "post_goblin_army"
+    },
+    {
+        "name": "Post-Queen Bee",
+        "type": "toggle",
+        "img": "/images/items/post_queen_bee.png",
+        "codes": "post_queen_bee"
+    },
+    {
+        "name": "Post-Skeletron",
+        "type": "toggle",
+        "img": "/images/items/post_skeletron.png",
+        "codes": "post_skeletron"
+    },
+    {
+        "name": "Hardmode",
+        "type": "toggle",
+        "img": "/images/items/hardmode.png",
+        "codes": "hardmode"
+    },
+    {
+        "name": "Post-The Twins",
+        "type": "toggle",
+        "img": "/images/items/post_the_twins.png",
+        "codes": "post_the_twins"
+    },
+    {
+        "name": "Post-The Destroyer",
+        "type": "toggle",
+        "img": "/images/items/post_the_destroyer.png",
+        "codes": "post_the_destroyer"
+    },
+    {
+        "name": "Post-Skeletron Prime",
+        "type": "toggle",
+        "img": "/images/items/post_skeletron_prime.png",
+        "codes": "post_skeletron_prime"
+    },
+    {
+        "name": "Post-Pirate Invasion",
+        "type": "toggle",
+        "img": "/images/items/post_pirate_invasion.png",
+        "codes": "post_pirate_invasion"
+    },
+    {
+        "name": "Post-Plantera",
+        "type": "toggle",
+        "img": "/images/items/post_plantera.png",
+        "codes": "post_plantera"
+    },
+    {
+        "name": "Post-Golem",
+        "type": "toggle",
+        "img": "/images/items/post_golem.png",
+        "codes": "post_golem"
+    },
+    {
+        "name": "Post-Empress of Light",
+        "type": "toggle",
+        "img": "/images/items/post_empress_of_light.png",
+        "codes": "post_empress_of_light"
+    },
+    {
+        "name": "Post-Lunatic Cultist",
+        "type": "toggle",
+        "img": "/images/items/post_lunatic_cultist.png",
+        "codes": "post_lunatic_cultist"
+    },
+    {
+        "name": "Post-Moon Lord",
+        "type": "toggle",
+        "img": "/images/items/post_moon_lord.png",
+        "codes": "post_moon_lord"
+    },
+    {
+        "name": "Goal: Mechanical Bosses",
+        "type": "toggle",
+        "img": "/images/settings/goal_mechanical_bosses.png",
+        "codes": "goal_mechanical_bosses"
+    },
+    {
+        "name": "Goal: Plantera",
+        "type": "toggle",
+        "img": "/images/settings/goal_plantera.png",
+        "codes": "goal_plantera"
+    },
+    {
+        "name": "Goal: Golem",
+        "type": "toggle",
+        "img": "/images/settings/goal_golem.png",
+        "codes": "goal_golem"
+    },
+    {
+        "name": "Goal: Empress of Light",
+        "type": "toggle",
+        "img": "/images/settings/goal_empress_of_light.png",
+        "codes": "goal_empress_of_light"
+    },
+    {
+        "name": "Goal: Lunatic Cultist",
+        "type": "toggle",
+        "img": "/images/settings/goal_lunatic_cultist.png",
+        "codes": "goal_lunatic_cultist"
+    },
+    {
+        "name": "Goal: Moon Lord",
+        "type": "toggle",
+        "img": "/images/settings/goal_moon_lord.png",
+        "codes": "goal_moon_lord"
+    },
+    {
+        "name": "Goal: Zenith",
+        "type": "toggle",
+        "img": "/images/settings/goal_zenith.png",
+        "codes": "goal_zenith"
+    },
+    {
+        "name": "Achievements: None",
+        "type": "toggle",
+        "img": "/images/settings/achievements_none.png",
+        "codes": "achievements_none"
+    },
+    {
+        "name": "Achievements: Exclude Fishing",
+        "type": "toggle",
+        "img": "/images/settings/achievements_exclude_fishing.png",
+        "codes": "achievements_exclude_fishing"
+    },
+    {
+        "name": "Achievements: Exclude Grindy",
+        "type": "toggle",
+        "img": "/images/settings/achievements_exclude_grindy.png",
+        "codes": "achievements_exclude_grindy"
+    },
+    {
+        "name": "Achievements: All",
+        "type": "toggle",
+        "img": "/images/settings/achievements_all.png",
+        "codes": "achievements_all"
+    }
+]

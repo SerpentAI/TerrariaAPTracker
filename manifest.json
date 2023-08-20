@@ -1,0 +1,14 @@
+{
+    "name": "Terraria",
+    "game_name": "Terraria",
+    "package_version": "0.1.0",
+    "package_uid": "ap_terraria",
+    "author": "Serpent.AI",
+    "variants": {
+      "map": {
+        "display_name": "Tracker",
+        "flags": ["ap"]
+      }
+    },
+    "versions_url": ""
+}

@@ -1,0 +1,38 @@
+{
+    "goals_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "goal_mechanical_bosses",
+                                "goal_plantera",
+                                "goal_golem"
+                            ],
+                            [
+                                "goal_empress_of_light",
+                                "goal_lunatic_cultist",
+                                "goal_moon_lord"
+                            ],
+                            [
+                                "goal_zenith"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

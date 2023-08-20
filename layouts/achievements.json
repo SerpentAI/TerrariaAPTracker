@@ -1,0 +1,35 @@
+{
+    "achievements_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "achievements_none"
+                            ],
+                            [
+                                "achievements_exclude_fishing",
+                                "achievements_exclude_grindy"
+                            ],
+                            [
+                                "achievements_all"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
