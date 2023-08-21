@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+Add PopTracker auto-update support
+
 ## 0.1.0
 
 Initial release
