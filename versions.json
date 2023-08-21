@@ -2,8 +2,8 @@
     "versions": [
         {
             "package_version": "0.1.1",
-            "download_url": "",
-            "sha256": "",
+            "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.1.zip",
+            "sha256": "765E4BB61875FA044AF8552204F3C9DCAA85597CB294BFC60542C45C2F45E651",
             "changelog": [
                 "Meta: Add PopTracker auto-update support"
             ]
