@@ -1,7 +1,7 @@
 {
     "name": "Terraria",
     "game_name": "Terraria",
-    "package_version": "0.1.0",
+    "package_version": "0.1.1",
     "package_uid": "ap_terraria",
     "author": "Serpent.AI",
     "variants": {
@@ -10,5 +10,5 @@
         "flags": ["ap"]
       }
     },
-    "versions_url": ""
+    "versions_url": "https://raw.githubusercontent.com/SerpentAI/TerrariaAPTracker/master/versions.json"
 }

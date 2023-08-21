@@ -11,7 +11,7 @@
         {
             "package_version": "0.1.0",
             "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.0.zip",
-            "sha256": "7B83EFF1D3548B3EEAE3AB4FA8DEB6F9CBEAC2AA8869B54AD9E7C78A0B60D9A9",
+            "sha256": "5934E9F01FA73DEFF418B6E1D6633C2F5E8552E2F031E5CF39C974CD48093ED4",
             "changelog": [
                 "Initial Release",
                 "Items: Tracking support for base game progression items",
