@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "0.1.2",
+            "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.2.zip",
+            "sha256": "3114474F5AB4E116FE5645B6802A71B350BF5E9D4E67A48F79F0786010F16739",
+            "changelog": [
+                "Fix goal and achievement settings not resetting after establishing an Archipelago connection",
+                "Add achievement setting automatic tracking",
+                "Add deathlink setting to tracker + automatic tracking"
+            ]
+        },
+        {
             "package_version": "0.1.1",
             "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.1.zip",
             "sha256": "765E4BB61875FA044AF8552204F3C9DCAA85597CB294BFC60542C45C2F45E651",
