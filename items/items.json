@@ -154,5 +154,11 @@
         "type": "toggle",
         "img": "/images/settings/achievements_all.png",
         "codes": "achievements_all"
+    },
+    {
+        "name": "Deathlink",
+        "type": "toggle",
+        "img": "/images/settings/deathlink.png",
+        "codes": "deathlink"
     }
 ]

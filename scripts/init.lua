@@ -11,6 +11,7 @@ Tracker:AddLocations("locations/locations.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/goals.json")
 Tracker:AddLayouts("layouts/achievements.json")
+Tracker:AddLayouts("layouts/deathlink.json")
 Tracker:AddLayouts("layouts/items.json")
 
 Tracker:AddLayouts("layouts/tracker.json")

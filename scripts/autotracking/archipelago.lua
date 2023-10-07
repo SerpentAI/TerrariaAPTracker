@@ -46,6 +46,14 @@ function onClear(slotData)
     end
 
     -- Reset Settings
+    Tracker:FindObjectForCode("goal_mechanical_bosses").Active = false
+    Tracker:FindObjectForCode("goal_plantera").Active = false
+    Tracker:FindObjectForCode("goal_golem").Active = false
+    Tracker:FindObjectForCode("goal_empress_of_light").Active = false
+    Tracker:FindObjectForCode("goal_lunatic_cultist").Active = false
+    Tracker:FindObjectForCode("goal_moon_lord").Active = false
+    Tracker:FindObjectForCode("goal_zenith").Active = false
+
     if slotData['goal'] then
         local goalValue = slotData['goal'][1]
         local goalTrackerKey = nil
@@ -64,22 +72,44 @@ function onClear(slotData)
             goalTrackerKey = "goal_moon_lord"
         elseif goalValue == "Zenith" then
             goalTrackerKey = "goal_zenith"
-        else
-            return
         end
 
-        local goalTrackerObject = Tracker:FindObjectForCode(goalTrackerKey)
-
-        goalTrackerObject.Active = true
+        if goalTrackerKey then
+            local goalTrackerObject = Tracker:FindObjectForCode(goalTrackerKey)
+            goalTrackerObject.Active = true
+        end
     end
 
-    -- if slotData['achievements'] then
-        -- Wait until this is stored in slot data to know how to handle it
-        -- For now, force all achievements on and let the user switch the setting manually if needed
-        local achievementTrackerObject = Tracker:FindObjectForCode("achievements_all")
+    Tracker:FindObjectForCode("achievements_none").Active = false
+    Tracker:FindObjectForCode("achievements_exclude_fishing").Active = false
+    Tracker:FindObjectForCode("achievements_exclude_grindy").Active = false
+    Tracker:FindObjectForCode("achievements_all").Active = false
 
-        achievementTrackerObject.Active = true
-    -- end
+    if slotData['achievements'] then
+        local achievementValue = slotData['achievements']
+        local achievementTrackerKey = nil
+
+        if achievementValue == 0 then
+            achievementTrackerKey = "achievements_none"
+        elseif achievementValue == 1 then
+            achievementTrackerKey = "achievements_exclude_grindy"
+        elseif achievementValue == 2 then
+            achievementTrackerKey = "achievements_exclude_fishing"
+        elseif achievementValue == 3 then
+            achievementTrackerKey = "achievements_all"
+        end
+
+        if achievementTrackerKey then
+            local achievementTrackerObject = Tracker:FindObjectForCode(achievementTrackerKey)
+            achievementTrackerObject.Active = true
+        end
+    end
+
+    Tracker:FindObjectForCode("deathlink").Active = false
+
+    if slotData['deathlink'] == true then
+        Tracker:FindObjectForCode("deathlink").Active = true
+    end
 end
 
 
