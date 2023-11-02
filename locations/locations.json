@@ -305,10 +305,10 @@
                         "name": "Old One's Army (Tier 2)",
                         "visibility_rules": ["$hasGoalOfAtLeastPlantera"],
                         "access_rules": [
-                            "post_evil_boss,post_the_twins",
-                            "post_evil_boss,post_the_destroyer",
-                            "post_evil_boss,post_skeletron_prime",
-                            "post_evil_boss,post_golem"
+                            "hardmode,post_evil_boss,post_the_twins",
+                            "hardmode,post_evil_boss,post_the_destroyer",
+                            "hardmode,post_evil_boss,post_skeletron_prime",
+                            "hardmode,post_evil_boss,post_golem"
                         ]
                     }
                 ]
@@ -370,7 +370,7 @@
                     {
                         "name": "Old One's Army (Tier 3)",
                         "visibility_rules": ["$hasGoalOfAtLeastEmpressOfLight"],
-                        "access_rules": ["post_evil_boss,post_golem"]
+                        "access_rules": ["hardmode,post_evil_boss,post_golem"]
                     }
                 ]
             },
