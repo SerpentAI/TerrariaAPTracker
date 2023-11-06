@@ -2,6 +2,10 @@ function has(item)
     return Tracker:ProviderCountForCode(item) > 0
 end
 
+function has_not(item)
+    return Tracker:ProviderCountForCode(item) == 0
+end
+
 
 -- Visibility Rules
 function hasGoalOfAtLeastMechanicalBosses()

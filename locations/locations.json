@@ -285,7 +285,10 @@
                     {
                         "name": "Skeletron Prime",
                         "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses"],
-                        "access_rules": ["hardmode,post_skeletron"]
+                        "access_rules": [
+                            "hardmode,post_skeletron",
+                            "hardmode,$has_not|post_skeletron_prime,[post_skeletron]"
+                        ]
                     }
                 ]
             },
@@ -348,9 +351,9 @@
                         "name": "Golem",
                         "visibility_rules": ["$hasGoalOfAtLeastGolem"],
                         "access_rules": [
-                            "hardmode,post_plantera,post_the_twins,post_the_destroyer,post_skeletron_prime",
-                            "hardmode,post_plantera,post_skeletron",
-                            "hardmode,post_plantera,post_golem"
+                            "hardmode,post_plantera,[post_the_twins],[post_the_destroyer],[post_skeletron_prime]",
+                            "hardmode,post_plantera,[post_skeletron]",
+                            "hardmode,post_plantera,[post_golem]"
                         ]
                     }
                 ]
@@ -1776,7 +1779,7 @@
                     {
                         "name": "Equip a pair of wings.",
                         "visibility_rules": ["$hasGoalOfAtLeastMechanicalBosses,$hasAchievements"],
-                        "access_rules": ["hardmode"]
+                        "access_rules": ["[hardmode]"]
                     }
                 ]
             },
@@ -1898,7 +1901,10 @@
                     {
                         "name": "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime.",
                         "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
-                        "access_rules": ["hardmode,post_skeletron"]
+                        "access_rules": [
+                            "hardmode,post_skeletron",
+                            "hardmode,$has_not|post_skeletron_prime,[post_skeletron]"
+                        ]
                     }
                 ]
             },
@@ -1917,7 +1923,10 @@
                     {
                         "name": "Do battle against the Twins, the Destroyer, and Skeletron Prime simultaneously and emerge victorious.",
                         "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
-                        "access_rules": ["hardmode,post_skeletron"]
+                        "access_rules": [
+                            "hardmode,post_skeletron",
+                            "hardmode,$has_not|post_skeletron_prime,[post_skeletron]"
+                        ]
                     }
                 ]
             },
@@ -1936,7 +1945,10 @@
                     {
                         "name": "Craft a drax or pickaxe axe using hallowed bars, and the souls of the three mechanical bosses.",
                         "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
-                        "access_rules": ["hardmode,post_skeletron"]
+                        "access_rules": [
+                            "hardmode,post_skeletron",
+                            "hardmode,$has_not|post_skeletron_prime,[post_skeletron]"
+                        ]
                     }
                 ]
             },
@@ -1957,6 +1969,7 @@
                         "visibility_rules": ["$hasGoalOfAtLeastPlantera,$hasAchievements"],
                         "access_rules": [
                             "hardmode,post_skeletron",
+                            "hardmode,$has_not|post_skeletron_prime,[post_skeletron]",
                             "hardmode,post_plantera,post_the_twins,post_the_destroyer,post_skeletron_prime",
                             "hardmode,post_plantera,post_golem"
                         ]
@@ -1981,7 +1994,7 @@
                         "access_rules": [
                             "hardmode,post_queen_bee,post_plantera",
                             "hardmode,post_skeletron,post_plantera",
-                            "hardmode,post_skeletron,post_golem"
+                            "hardmode,post_skeletron,post_golem,goal_zenith"
                         ]
                     }
                 ]
@@ -2120,7 +2133,9 @@
                         "name": "Survive a solar eclipse, a day darker than night filled with creatures of horror.",
                         "visibility_rules": ["$hasGoalOfAtLeastGolem,$hasAchievements"],
                         "access_rules": [
-                            "hardmode,post_the_twins,post_the_destroyer,post_skeletron_prime",
+                            "hardmode,post_the_twins,[post_the_destroyer],[post_skeletron_prime]",
+                            "hardmode,[post_the_twins],post_the_destroyer,[post_skeletron_prime]",
+                            "hardmode,[post_the_twins],[post_the_destroyer],post_skeletron_prime",
                             "hardmode,post_plantera,post_skeletron",
                             "hardmode,post_plantera,post_golem"
                         ]

@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.4
+
+* Fix You and What Army? achievement considering Stardust Armor as a possibility when goal is not Zenith
+* Add a set of out of logic rules (AKA yellow checks). List provided by Luna & on the AP Terraria Discord channel
+
+## 0.1.3
+
+* Add Hardmode requirement to Old One's Army Tier 2 and 3
+
+## 0.1.2
+
+* Fix goal and achievement settings not resetting after establishing an Archipelago connection
+* Add achievement setting automatic tracking
+* Add deathlink setting to tracker + automatic tracking
+
 ## 0.1.1
 
 Add PopTracker auto-update support
