@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "0.1.5",
+            "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.5.zip",
+            "sha256": "9F878E284B4F8D276C1E6C23B8A4EB33B921651F3F99DA002966A4B84FF7F8A9",
+            "changelog": [
+                "Fix Slayer of Worlds achievement logical requirements"
+            ]
+        },
+        {
             "package_version": "0.1.4",
             "download_url": "https://github.com/SerpentAI/TerrariaAPTracker/archive/refs/tags/0.1.4.zip",
             "sha256": "DBF03604027948A0C83CAE3C6C1276BEC791156108E131B0F9990E8A1B8BFBA8",
