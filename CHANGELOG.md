@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+* Fix Slayer of Worlds achievement logical requirements
+
 ## 0.1.4
 
 * Fix You and What Army? achievement considering Stardust Armor as a possibility when goal is not Zenith

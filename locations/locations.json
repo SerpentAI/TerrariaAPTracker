@@ -2195,7 +2195,7 @@
                     {
                         "name": "Defeat every boss in Terraria.",
                         "visibility_rules": ["$hasGoalOfAtLeastZenith,$hasAchievements"],
-                        "access_rules": ["hardmode,post_skeletron,post_the_twins,post_the_destroyer,post_skeletron_prime,post_golem"]
+                        "access_rules": ["hardmode,post_skeletron,post_the_twins,post_the_destroyer,post_skeletron_prime,post_golem,post_plantera"]
                     }
                 ]
             },
